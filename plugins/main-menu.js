@@ -7,29 +7,15 @@ import fetch from "node-fetch";
 
 const defaultMenu = {
   before: `
-  「 ${botname} 🎁XMD 」
+  「 ${botname} 🎁 」
   *%ucpn*
-⍟────────────────⍟
-*REMEMBER THIS BOT IS FOR EDUCATIONAL PURPOSES*
-⍟────────────────⍟
-*©Salman Ahmad*
-⍟────────────────⍟
-*_Konnichiwa! It's XLICON-MD A Multi-Device Whatsapp BOT_*
-*_Recoded By Salman Ahmad And Abraham Dwamena_*
-⍟────────────────⍟
-                                   
- ▀▄▀ █░░ █ █▀▀ █▀█ █▄░█  
- █░█ █▄▄ █ █▄▄ █▄█ █░▀█  
-          
- █▀▄▀█ █▀▄
- █░▀░█ █▄▀
 
 ╭─────────────────⦿
 ┃   🔰〘 𝙄𝙉𝙁𝙊 〙🔰
 ╰┬────────────────⦿
 ┌┤
 ┃
-┃ *_Founder_*: Salman Ahmad 
+┃ *_Founder_*: ⏤͟͟͞➣⃟⃟🍒𝚫𝐘𝚫𝚭~ ⃟⃟⃟⃟❤️ 
 ┃ *_Bot Name_*: ${botname}
 ┃ *_Mode_*: %mode
 ┃ *_HOST_*: Kali Linux
@@ -47,7 +33,7 @@ const defaultMenu = {
 ┃
 ┃ *_Name_*: %name
 ┃ *_Gold_*: %credit
-┃ *_Role_*: XLICON-MD-TESTER
+┃ *_Role_*: TESTER
 ┃ *_Level_*: %level [%xp4levelup XP for level up]
 ┃ *_Xp_*: %exp / %maxexp
 ┃ *_Total Xp_*: %totalexp
@@ -69,7 +55,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   await conn.sendMessage(m.chat, {
     react: {
-      text: "⏳",
+      text: "🪻",
       key: m.key,
     },
   });
