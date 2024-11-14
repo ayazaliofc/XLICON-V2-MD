@@ -41,7 +41,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 🌠 *_Bible quote of the day: ${quote}_* 🌠
 
 ┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🏮  *Founder:* Salman Ahmad
+┃ 🏮  *Founder:* ⏤͟͟͞➣⃟⃟🍒𝚫𝐘𝚫𝚭~ ⃟⃟⃟⃟❤️
 ┃ 🤡  *Bot Name:* ${botname} 
 ┃ 💻  *Host:* Kali Linux
 ┃ 📣  *Prefix:* ${usedPrefix} 
